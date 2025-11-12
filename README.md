@@ -30,5 +30,17 @@ if a+b>c and b+c>a and c+a>b:
           print("scalene triangle")
 else:
     print("its not a triangle")
+
+
+    #leap year( to check weather its a leap year or not?
+year=int(input("enter any year"))
+if year%4==0:
+    if year%100==0:
+        if year%400==0:
+            print(year, " it is  a leap year")
+        else: print(year, " it is not a leap year")
+    else: print(year, " it is a leap year")
+else:
+    print(year, " it is not a leap year")
       
 
