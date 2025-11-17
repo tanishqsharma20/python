@@ -42,5 +42,11 @@ if year%4==0:
     else: print(year, " it is a leap year")
 else:
     print(year, " it is not a leap year")
-      
+      n=int(input("enter the nth term  :"))
+a=0
+b=1
+for i in range(2,n):
+    c=a+b
+    a,b=b,c
+print(c)
 
