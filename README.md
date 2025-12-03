@@ -95,3 +95,6 @@ n_f=1
 for i in range(1,n+1):
     n_f=n_f*i
 print(n_f)
+year=int(input("enter any year")) if year%4==0: if year%100==0: if year%400==0: print(year, " it is a leap year") else: print(year, " it is not a leap year") else: print(year, " it is a leap year") else: print(year, " it is not a leap year") n=int(input("enter the nth term :")) a=0 b=1 for i in range(2,n): c=a+b a,b=b,c print(c)
+
+start=10 end=20 for i in range(start,end+1): for j in range(2,i): if i%j==0: break else: print(i,end=" ")
