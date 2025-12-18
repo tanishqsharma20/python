@@ -1,103 +1,76 @@
-# python
-this is my notes of python
-science_marks=int(input("enter marks in science ;"))
-lang_marks=int(input("enter marks in language ;"))
-math_marks=int(input("enter marks in maths ;"))
-obtained_percentage=((science_marks + lang_marks + math_marks) / 300 * 100)
-if obtained_percentage>=65:
-    print(obtained_percentage,"first division")
-elif  obtained_percentage>=50:
-    print(obtained_percentage,"second division")
-elif  obtained_percentage>=33:
-    print(obtained_percentage,"third division")
-else:print(obtained_percentage,"fail")
+# 🐍 Python Learning & Git Contributions
 
-print("obtained percentage" , obtained_percentage,"%")
+## 📌 Overview
+This repository documents my journey of learning **Python programming** and managing my work using **Git & GitHub**. It showcases hands-on practice, version control usage, and collaborative development workflows.
 
-print("obtained marks" , science_marks + lang_marks + math_marks)
+---
 
+## 🧠 Python Learning Progress
 
+### 🔹 Core Python Concepts
+- Variables, Data Types, and Operators  
+- Conditional Statements (`if`, `else`, `elif`)  
+- Loops (`for`, `while`)  
+- Functions and Recursion  
+- Lists, Tuples, Sets, and Dictionaries  
+- String manipulation  
+- Basic File Handling  
 
-a=int(input("enter lenght a :"))
-b=int(input("enter lenght b :"))
-c=int(input("enter lenght c :"))
-if a+b>c and b+c>a and c+a>b:
-      if a==b==c:
-          print("it is a equilateral triangle")
-      elif  a==b or b==c or c==a:
-          print("it is an isosceles")
-      else:
-          print("scalene triangle")
-else:
-    print("its not a triangle")
+### 🔹 Intermediate Topics
+- Exception Handling  
+- List & Dictionary Comprehensions  
+- Modules and Packages  
+- Working with CSV and external files  
+- Basic problem-solving using Python  
 
+### 🔹 Practice & Hands-on Work
+- Solved small coding problems
+- Implemented logic-based programs (e.g., palindrome checks, data filtering)
+- Focused on writing clean, readable, and optimized code
 
-    #leap year( to check weather its a leap year or not?
-year=int(input("enter any year"))
-if year%4==0:
-    if year%100==0:
-        if year%400==0:
-            print(year, " it is  a leap year")
-        else: print(year, " it is not a leap year")
-    else: print(year, " it is a leap year")
-else:
-    print(year, " it is not a leap year")
-      n=int(input("enter the nth term  :"))
-a=0
-b=1
-for i in range(2,n):
-    c=a+b
-    a,b=b,c
-print(c)
+---
 
-start=10
-end=20
-for i in range(start,end+1):
-    for j in range(2,i):
-        if i%j==0:
-            break
-    else:
-        print(i,end=" ")
+## 🔧 Git & GitHub Workflow
 
+### 🔹 Repository Management
+- Cloned the remote repository using Git
+- Understood project structure before development
+- Followed best practices for folder and file organization
 
-        #febonacci it is the sum of 2 consicutive number before that number
-a=0
-b=1
-x=int(input("enter the term :"))
-for i in range(2,x):
-    c=a+b
-    print(c,end=" ")
-    a=b
-    b=c
-print(c,"output")
+### 🔹 Branching Strategy
+- Created separate branches for individual tasks or features
+- Used meaningful branch names
+- Ensured isolation of changes before merging
 
-#febonacci it is the sum of 2 consicutive number before that number
-a=0
-b=1
-x=int(input("enter the term :"))
-for i in range(2,x):
-    c=a+b
-    print(c,end=" ")
-    a=b
-    b=c
-print(c,"output")
+### 🔹 Version Control Operations
+- Staged changes using `git add`
+- Committed updates with clear and descriptive messages
+- Pushed local commits to the remote repository
+- Pulled latest changes to stay in sync with the team
 
+### 🔹 Collaboration Support
+- Helped peers clone the repository
+- Guided teammates in creating their own branches
+- Assisted in pushing code to remote branches
+- Resolved basic merge conflicts
 
-            #leap year( to check weather its a leap year or not?
-year=int(input("enter any year")) if year%4==0: if year%100==0: if year%400==0: print(year, " it is a leap year") else: print(year, " it is not a leap year") else: print(year, " it is a leap year") else: print(year, " it is not a leap year") n=int(input("enter the nth term :")) a=0 b=1 for i in range(2,n): c=a+b a,b=b,c print(c)
+---
 
-start=10 end=20 for i in range(start,end+1): for j in range(2,i): if i%j==0: break else: 
+## 🚀 Key Learnings
+- Importance of version control in real-world projects
+- Writing maintainable and structured Python code
+- Collaborating effectively using GitHub
+- Following disciplined commit and branching practices
 
+---
 
-#wapp to print factorial of n(user input) ?
-n=int(input("enter the nth factorial number  :"))
-n_f=1
-for i in range(1,n+1):
-    n_f=n_f*i
-print(n_f)
-year=int(input("enter any year")) if year%4==0: if year%100==0: if year%400==0: print(year, " it is a leap year") else: print(year, " it is not a leap year") else: print(year, " it is a leap year") else: print(year, " it is not a leap year") n=int(input("enter the nth term :")) a=0 b=1 for i in range(2,n): c=a+b a,b=b,c print(c)
+## 📈 Future Goals
+- Learn advanced Python concepts
+- Explore data analysis and automation
+- Improve code efficiency and documentation
+- Contribute to larger collaborative projects
 
-start=10 end=20 for i in range(start,end+1): for j in range(2,i): if i%j==0: break else: print(i,end=" ")
-function and method!
+---
 
-PYTHON NOTES AND PRACTICE
+## 🤝 Acknowledgements
+Thanks to peers and mentors for collaboration, discussions, and continuous learning support.
